@@ -1,0 +1,18 @@
+[project]
+name = "hhmarl-2d-pytorch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cartopy>=0.25.0",
+    "geographiclib==2.0",
+    "gymnasium==0.29.1",
+    "imageio>=2.37.3",
+    "matplotlib>=3.10.9",
+    "pycairo>=1.29.0",
+    "scipy>=1.15.3",
+    "stable-baselines3[extra]>=2.9.0",
+    "tensorboard>=2.20.0",
+    "tqdm>=4.68.3",
+]
