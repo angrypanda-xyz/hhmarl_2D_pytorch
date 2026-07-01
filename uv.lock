@@ -552,6 +552,7 @@ dependencies = [
     { name = "scipy", version = "1.18.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
     { name = "stable-baselines3", extra = ["extra"] },
     { name = "tensorboard" },
+    { name = "tk" },
     { name = "tqdm" },
 ]
 
@@ -566,6 +567,7 @@ requires-dist = [
     { name = "scipy", specifier = ">=1.15.3" },
     { name = "stable-baselines3", extras = ["extra"], specifier = ">=2.9.0" },
     { name = "tensorboard", specifier = ">=2.20.0" },
+    { name = "tk", specifier = ">=0.1.0" },
     { name = "tqdm", specifier = ">=4.68.3" },
 ]
 
@@ -2304,6 +2306,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/7a/13/e503968fefabd4c6b2650af21e110aa8466fe21432cd7c43a84577a89438/tensorboard_data_server-0.7.2-py3-none-any.whl", hash = "sha256:7e0610d205889588983836ec05dc098e80f97b7e7bbff7e994ebb78f578d0ddb", size = 2356, upload-time = "2023-10-23T21:23:32.16Z" },
     { url = "https://files.pythonhosted.org/packages/b7/85/dabeaf902892922777492e1d253bb7e1264cadce3cea932f7ff599e53fea/tensorboard_data_server-0.7.2-py3-none-macosx_10_9_x86_64.whl", hash = "sha256:9fe5d24221b29625dbc7328b0436ca7fc1c23de4acf4d272f1180856e32f9f60", size = 4823598, upload-time = "2023-10-23T21:23:33.714Z" },
     { url = "https://files.pythonhosted.org/packages/73/c6/825dab04195756cf8ff2e12698f22513b3db2f64925bdd41671bfb33aaa5/tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl", hash = "sha256:ef687163c24185ae9754ed5650eb5bc4d84ff257aabdc33f0cc6f74d8ba54530", size = 6590363, upload-time = "2023-10-23T21:23:35.583Z" },
+]
+
+[[package]]
+name = "tk"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a0/81/742b342fd642e672fbedecde725ba44db44e800dc4c936216c3c6729885a/tk-0.1.0.tar.gz", hash = "sha256:60bc8923d5d35f67f5c6bd93d4f0c49d2048114ec077768f959aef36d4ed97f8", size = 2247, upload-time = "2019-07-08T06:51:58.051Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1e/0b/029cbdb868bb555fed99bf6540fff072d500b3f895873709f25084e85e33/tk-0.1.0-py3-none-any.whl", hash = "sha256:703a69ff0d5ba2bd2f7440582ad10160e4a6561595d33457dc6caa79b9bf4930", size = 3879, upload-time = "2019-07-08T06:51:55.175Z" },
 ]
 
 [[package]]
